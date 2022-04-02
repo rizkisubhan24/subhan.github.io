@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.media{
+    background-color:deepskyblue;
+    padding: 5px 0;
+}
+
+.media ul li{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}
+
+.isi{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1{
+    float: left;
+    padding: 10px 0;
+    color: deepskyblue;
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+ 
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header :hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.active{
+    background-color: deepskyblue;
+    color: white;
+}
+ 
+.main{
+    height: 400px;
+        background-image: url(lakso.jpg);
+        background-size: cover;
+        background-position: 0 -120px;
+        border-bottom:5px solid lightblue ;
+        border-top: 5px solid salmon; 
+   
+}
+
+.main ::after{
+    content: normal;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.about p{
+    line-height:10px;
+}
+
+.main h2{
+    justify-content: center;
+    display: flex;
+    position:relative;
+    align-items: center;
+    padding-top: 80px;
+    font-size: 25px;
+    font-family:monospace;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section p{
+    text-align: center;
+    color:salmon;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px;
+    font-family: monospace;
+}
+ 
